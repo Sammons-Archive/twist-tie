@@ -1,0 +1,34 @@
+{
+	"method":"post",
+	"action":"#submit",
+	"update":true,
+	"insert":true,
+	"fields": [
+		 {
+			"name":"Name",
+			"input-type":"text",
+			"required":"true",
+			"associations": [
+			]
+		},
+		{
+			"name":"Password",
+			"input-type":"password",
+			"required":"true",
+			"associations": [
+			]
+		}
+	],
+	"tables": [
+		 {
+			"name":"Users",
+			"create":true,
+			"replace":true,
+			"fields": {
+				"ID": "INT IDENTITY",
+				"Name": "VARCHAR(255)",
+				"Password":"VARCHAR(MAX)"
+			}
+		}
+	]
+}

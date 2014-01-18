@@ -1,0 +1,16 @@
+{
+  "name": "twist_tie",
+  "version": "0.0.0",
+  "description": "twist-tie",
+  "main": "twist.js",
+  "author": {
+    "name": "Ben",
+    "email": ""
+  },
+  "dependencies": {
+    "msnodesql": "*",
+    "optimist": "~0.6.0",
+    "cheerio": "~0.13.1",
+    "html": "0.0.7"
+  }
+}
